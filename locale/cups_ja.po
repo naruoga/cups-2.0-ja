@@ -26,10 +26,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: CUPS 1.7\n"
+"Project-Id-Version: CUPS 2.0\n"
 "Report-Msgid-Bugs-To: http://www.cups.org/str.php\n"
 "POT-Creation-Date: 2014-08-29 22:25-0400\n"
-"PO-Revision-Date: 2014-11-08 13:03+0900\n"
+"PO-Revision-Date: 2014-11-09 21:48+0900\n"
 "Last-Translator: OPFC TRANSCUPS <opfc-transcups@sourceforge.jp>\n"
 "Language-Team: OPFC TRANSCUPS <opfc-transcups@sourceforge.jp>\n"
 "Language: ja\n"
@@ -496,7 +496,7 @@ msgstr "      %s  不正な値が cupsFilter2 に設定されています。 \"%
 #: systemv/cupstestppd.c:2964
 #, c-format
 msgid "      %s  Bad cupsICCProfile %s."
-msgstr "      %s  不正な cupsICCProfile %sです。"
+msgstr "      %s  不正な cupsICCProfile %s です。"
 
 #: systemv/cupstestppd.c:2571
 #, c-format
@@ -506,12 +506,12 @@ msgstr "      %s  不正な値が cupsPreFilter に設定されています。 \
 #: systemv/cupstestppd.c:1822
 #, c-format
 msgid "      %s  Bad cupsUIConstraints %s: \"%s\""
-msgstr "      %s  不正な cupsUIConstraints %s: \"%s\"です。"
+msgstr "      %s  不正な cupsUIConstraints %s: \"%s\" です。"
 
 #: systemv/cupstestppd.c:3411
 #, c-format
 msgid "      %s  Bad language \"%s\"."
-msgstr "      %s  無効な言語 \"%s\"です。"
+msgstr "      %s  無効な言語 \"%s\" です。"
 
 #: systemv/cupstestppd.c:2433 systemv/cupstestppd.c:2529
 #: systemv/cupstestppd.c:2615 systemv/cupstestppd.c:2673
@@ -543,7 +543,7 @@ msgstr "      %s  デフォルトの選択肢が競合しています。"
 #: systemv/cupstestppd.c:1803
 #, c-format
 msgid "      %s  Empty cupsUIConstraints %s"
-msgstr "      %s 空の cupsUIConstraints %sです。"
+msgstr "      %s 空の cupsUIConstraints %s です。"
 
 #: systemv/cupstestppd.c:3539 systemv/cupstestppd.c:3579
 #, c-format
@@ -1333,7 +1333,6 @@ msgid "  -L                      Send requests using content-length."
 msgstr "  -L                      content-length を用いてリクエストを送る。"
 
 #: test/ipptool.c:4819
-#, fuzzy
 msgid ""
 "  -P filename.plist       Produce XML plist to a file and test report to "
 "standard output."
@@ -1612,7 +1611,7 @@ msgid ""
 "                          Execute program if true."
 msgstr ""
 "  -x <実行ファイル名> [引数 ...] ;\n"
-"                          成功した場合、<実行ファイル名>を実行する。"
+"                          成功した場合、<実行ファイル名> を実行する。"
 
 #: ppdc/ppdc.cxx:448
 msgid "  -z                      Compress PPD files using GNU zip."
@@ -1628,7 +1627,7 @@ msgid ""
 "                          Fully-qualified domain name"
 msgstr ""
 "  IPPFIND_SERVICE_HOSTNAME\n"
-"                          完全修飾ドメイン名(FQDN)"
+"                          完全修飾ドメイン名 (FQDN)"
 
 #: test/ippfind.c:2813
 msgid "  IPPFIND_SERVICE_NAME    Service instance name"
@@ -1958,9 +1957,7 @@ msgstr ""
 msgid ""
 "\"%s\": Bad resolution value %dx%d%s - cross feed resolution must be "
 "positive (RFC 2911 section 4.1.15)."
-msgstr ""
-"\"%s\": resolution の値 %dx%d%s が誤っています - 主走査解像道が負 (RFC 2911 "
-"4.1.15 節)。"
+msgstr "\"%s\": resolution の値 %dx%d%s が誤っています - 主走査解像度が負 (RFC 2911 4.1.15 節)。"
 
 #: cups/ipp.c:5012
 #, c-format
@@ -3863,7 +3860,7 @@ msgstr "濃さ"
 
 #: backend/lpd.c:1113
 msgid "Data file sent successfully."
-msgstr "データファイルが正常に送信されました"
+msgstr "データファイルが正常に送信されました。"
 
 #: cgi-bin/admin.c:2074 cgi-bin/admin.c:2085 cgi-bin/admin.c:2130
 msgid "Delete Class"
@@ -4747,7 +4744,7 @@ msgstr "1 行が最大値 (255 文字) を超えています"
 
 #: cgi-bin/admin.c:2373
 msgid "List Available Printers"
-msgstr "使用可能なプリンターをリスト化"
+msgstr "使用可能なプリンター一覧"
 
 #: cups/localize.c:291
 msgid "Load paper."
@@ -4969,11 +4966,11 @@ msgstr "コミュニティ名がありません"
 
 #: scheduler/ipp.c:5771
 msgid "No default printer."
-msgstr "デフォルトのプリンターはありません"
+msgstr "デフォルトのプリンターはありません。"
 
 #: cgi-bin/ipp-var.c:421 scheduler/ipp.c:7149
 msgid "No destinations added."
-msgstr "追加された宛先はありません"
+msgstr "追加された宛先はありません。"
 
 #: backend/usb.c:200
 msgid "No device URI found in argv[0] or in DEVICE_URI environment variable."
@@ -4993,7 +4990,7 @@ msgstr "印刷リクエストにファイルがありません。"
 
 #: cups/util.c:817
 msgid "No modification time"
-msgstr "変更時刻がありません。"
+msgstr "変更時刻がありません"
 
 #: cups/snmp.c:1003
 msgid "No name OID"
@@ -5006,15 +5003,15 @@ msgstr " ページが見つかりません。"
 
 #: cups/util.c:811
 msgid "No printer name"
-msgstr "プリンター名がありません。"
+msgstr "プリンター名がありません"
 
 #: cups/util.c:1647
 msgid "No printer-uri found"
-msgstr "プリンター URI が見つかりません。"
+msgstr "プリンター URI が見つかりません"
 
 #: cups/util.c:1631
 msgid "No printer-uri found for class"
-msgstr "クラスのプリンター URI が見つかりません。"
+msgstr "クラスのプリンター URI が見つかりません"
 
 #: scheduler/ipp.c:6179
 msgid "No printer-uri in request."
@@ -5354,7 +5351,7 @@ msgstr "印刷ジョブが大きすぎます。"
 
 #: backend/ipp.c:1642
 msgid "Print job was not accepted."
-msgstr "印刷ジョブが受付されませんでした。"
+msgstr "印刷ジョブが受け付けられませんでした。"
 
 #: cgi-bin/ipp-var.c:1027
 msgid "Printer Added"
@@ -5651,9 +5648,7 @@ msgstr "PPD ファイルを開けませんでした。"
 msgid ""
 "The class name may only contain up to 127 printable characters and may not "
 "contain spaces, slashes (/), or the pound sign (#)."
-msgstr ""
-"クラス名は 127 文字以内の表示可能文字からなり、空白、スラッシュ (/)、シャー"
-"プ (#) を含んではなりません。"
+msgstr "クラス名は 127 文字以内の表示可能文字からなり、空白、スラッシュ (/)、ハッシュ (#) を含んではなりません。"
 
 #: cups/localize.c:338
 msgid "The developer unit needs to be replaced."
@@ -5754,9 +5749,7 @@ msgstr "プリンターは現在存在しないか、使用できないようで
 msgid ""
 "The printer name may only contain up to 127 printable characters and may not "
 "contain spaces, slashes (/), or the pound sign (#)."
-msgstr ""
-"プリンター名は 127 文字以内の表示可能文字から成り、空白、スラッシュ (/)、ポン"
-"ド記号 (#) を含んではなりません。"
+msgstr "プリンター名は 127 文字以内の表示可能文字から成り、空白、スラッシュ (/)、ハッシュ (#) を含んではなりません。"
 
 #: scheduler/ipp.c:788 scheduler/ipp.c:1048 scheduler/ipp.c:3205
 #: scheduler/ipp.c:3384 scheduler/ipp.c:5166 scheduler/ipp.c:5333
@@ -5820,9 +5813,7 @@ msgstr ""
 msgid ""
 "The subscription name may not contain spaces, slashes (/), question marks "
 "(?), or the pound sign (#)."
-msgstr ""
-"サブスクリプション名には、スペース、スラッシュ (/)、疑問府 (?)、ポンド記号 "
-"(#) を使用しないでください。"
+msgstr "サブスクリプション名には、スペース、スラッシュ (/)、疑問府 (?)、ハッシュ (#) を使用しないでください。"
 
 #: scheduler/client.c:2232
 msgid ""
@@ -5938,7 +5929,7 @@ msgstr "ヘルプファイルにアクセスできません。"
 
 #: cgi-bin/admin.c:504
 msgid "Unable to add RSS subscription"
-msgstr " RSS 購読を追加できません"
+msgstr "RSS 購読を追加できません"
 
 #: cgi-bin/admin.c:792
 msgid "Unable to add class"
@@ -6055,7 +6046,7 @@ msgstr "インターフェイススクリプトをコピーできません - %s"
 
 #: cups/util.c:496 cups/util.c:1479
 msgid "Unable to create printer-uri"
-msgstr "printer-uri を作成できません。"
+msgstr "printer-uri を作成できません"
 
 #: cups/tls-darwin.c:1116 cups/tls-gnutls.c:1157
 msgid "Unable to create server credentials."
@@ -6079,7 +6070,7 @@ msgstr "メンテナンスコマンドを実行できません"
 
 #: cgi-bin/admin.c:1954
 msgid "Unable to edit cupsd.conf files larger than 1MB"
-msgstr "1MB 以上の cupsd.conf ファイルは編集できません。"
+msgstr "1MB 以上の cupsd.conf ファイルは編集できません"
 
 #: cups/tls-darwin.c:1284
 msgid ""
@@ -6374,7 +6365,7 @@ msgstr "未知のリクエストバージョンです。"
 
 #: cups/http-support.c:1483
 msgid "Unknown scheme in URI"
-msgstr "未知のサービス名です。"
+msgstr "URI に未知のスキーマがあります"
 
 #: cups/http-addrlist.c:737
 msgid "Unknown service name."
@@ -6506,11 +6497,11 @@ msgstr "使い方: cupsd [オプション]"
 
 #: scheduler/cupsfilter.c:1481
 msgid "Usage: cupsfilter [ options ] [ -- ] filename"
-msgstr "使い方: cupsfilter [ options ] [ -- ] filename"
+msgstr "使い方: cupsfilter [ オプション ] [ -- ] ファイル名"
 
 #: systemv/cupstestdsc.c:425
 msgid "Usage: cupstestdsc [options] filename.ps [... filename.ps]"
-msgstr "使い方: cupstestdsc [オプション] filename.ps [... filename.ps]"
+msgstr "使い方: cupstestdsc [オプション] ファイル名.ps [... ファイル名.ps]"
 
 #: systemv/cupstestppd.c:3813
 msgid ""
@@ -6594,7 +6585,7 @@ msgstr ""
 
 #: backend/snmp.c:192
 msgid "Usage: snmp [host-or-ip-address]"
-msgstr "使い方: snmp [ホストまたはIPアドレス]"
+msgstr "使い方: snmp [ホスト名またはIPアドレス]"
 
 #: cups/snmp.c:1016
 msgid "Value uses indefinite length"
@@ -6792,27 +6783,27 @@ msgstr "ippfind: 不正な正規表現です: %s"
 
 #: test/ippfind.c:328
 msgid "ippfind: Cannot use --and after --or."
-msgstr "ippfind: --and は --or の後に指定することはできません。"
+msgstr "ippfind: --and は --or のあとに指定することはできません。"
 
 #: test/ippfind.c:601
 #, c-format
 msgid "ippfind: Expected key name after %s."
-msgstr "ippfind: %s の後にはキー名が必要です。"
+msgstr "ippfind: %s のあとにはキー名が必要です。"
 
 #: test/ippfind.c:551 test/ippfind.c:734
 #, c-format
 msgid "ippfind: Expected port range after %s."
-msgstr "ippfind: %s の後にはポート範囲が必要です。"
+msgstr "ippfind: %s のあとにはポート範囲が必要です。"
 
 #: test/ippfind.c:361
 #, c-format
 msgid "ippfind: Expected program after %s."
-msgstr "ippfind: %s の後にはプログラム名が必要です。"
+msgstr "ippfind: %s のあとにはプログラム名が必要です。"
 
 #: test/ippfind.c:378
 #, c-format
 msgid "ippfind: Expected semi-colon after %s."
-msgstr "ippfind: %s の後にはセミコロンが必要です。"
+msgstr "ippfind: %s のあとにはセミコロンが必要です。"
 
 #: test/ippfind.c:1965
 msgid "ippfind: Missing close brace in substitution."
@@ -6833,7 +6824,7 @@ msgstr "ippfind: \"--or\" の前には式が必要です。"
 #: test/ippfind.c:871
 #, c-format
 msgid "ippfind: Missing key name after %s."
-msgstr "ippfind: %s の後にはキー名が必要です。"
+msgstr "ippfind: %s のあとにはキー名が必要です。"
 
 #: test/ippfind.c:1024
 msgid "ippfind: Missing open parenthesis."
@@ -6842,19 +6833,19 @@ msgstr "ippfind: 開きカッコが足りません。"
 #: test/ippfind.c:901
 #, c-format
 msgid "ippfind: Missing program after %s."
-msgstr "ippfind: %s の後にはプログラム名が必要です。"
+msgstr "ippfind: %s のあとにはプログラム名が必要です。"
 
 #: test/ippfind.c:347 test/ippfind.c:401 test/ippfind.c:430 test/ippfind.c:536
 #: test/ippfind.c:618 test/ippfind.c:633 test/ippfind.c:788 test/ippfind.c:803
 #: test/ippfind.c:826 test/ippfind.c:886
 #, c-format
 msgid "ippfind: Missing regular expression after %s."
-msgstr "ippfind: %s の後には正規表現が必要です。"
+msgstr "ippfind: %s のあとには正規表現が必要です。"
 
 #: test/ippfind.c:919
 #, c-format
 msgid "ippfind: Missing semi-colon after %s."
-msgstr "ippfind: %s の後にはセミコロンが必要です。"
+msgstr "ippfind: %s のあとにはセミコロンが必要です。"
 
 #: test/ippfind.c:1912 test/ippfind.c:1937
 msgid "ippfind: Out of memory."
@@ -6862,7 +6853,7 @@ msgstr "ippfind: メモリ不足です。"
 
 #: test/ippfind.c:997
 msgid "ippfind: Too many parenthesis."
-msgstr "ippfind: カッコが多過ぎます。"
+msgstr "ippfind: カッコが多すぎます。"
 
 #: test/ippfind.c:1266 test/ippfind.c:1402 test/ippfind.c:2557
 #, c-format
@@ -6872,12 +6863,12 @@ msgstr "ippfind: %s をブラウズできないか名前解決できません。
 #: test/ippfind.c:2035 test/ippfind.c:2062
 #, c-format
 msgid "ippfind: Unable to execute \"%s\": %s"
-msgstr "ippfind: \"%s\" を実行できません : %s"
+msgstr "ippfind: \"%s\" を実行できません: %s"
 
 #: test/ippfind.c:1143 test/ippfind.c:1151 test/ippfind.c:1162
 #, c-format
 msgid "ippfind: Unable to use Bonjour: %s"
-msgstr "ippfind: Bonjour を利用できません。: %s"
+msgstr "ippfind: Bonjour を利用できません: %s"
 
 #: test/ippfind.c:1994
 #, c-format
@@ -6886,7 +6877,7 @@ msgstr "ippfind: \"{%s}\" は不明な変数です。"
 
 #: test/ipptool.c:326 test/ipptool.c:389 test/ipptool.c:544 test/ipptool.c:567
 msgid "ipptool: \"-i\" and \"-n\" are incompatible with \"-P\" and \"-X\"."
-msgstr "ipptool: \"-i\" and \"-n\" は \"-P\"、\"-X\" と一緒に指定できません。"
+msgstr "ipptool: \"-i\" および \"-n\" は \"-P\"、\"-X\" と一緒に指定できません。"
 
 #: test/ipptool.c:623
 #, c-format
@@ -7101,9 +7092,7 @@ msgstr "lpinfo: \"--language\" のあとには、言語を指定する必要が�
 
 #: systemv/lpinfo.c:207
 msgid "lpinfo: Expected make and model after \"--make-and-model\"."
-msgstr ""
-"lpinfo: \"--make-and-model\" の後には、メーカーとモデルを指定する必要がありま"
-"す。"
+msgstr "lpinfo: \"--make-and-model\" のあとには、メーカーとモデルを指定する必要があります。"
 
 #: systemv/lpinfo.c:224
 msgid "lpinfo: Expected product string after \"--product\"."
@@ -7163,7 +7152,7 @@ msgstr "lpoptions: プリンターがありません。"
 #: systemv/lpoptions.c:212
 #, c-format
 msgid "lpoptions: Unable to add printer or instance: %s"
-msgstr "lpoptions: プリンターまたはインスタンスを追加できません: %s。"
+msgstr "lpoptions: プリンターまたはインスタンスを追加できません: %s"
 
 #: systemv/lpoptions.c:507
 #, c-format
@@ -7241,14 +7230,12 @@ msgstr "不正なフォント属性: %s"
 #: ppdc/ppdc-source.cxx:1753
 #, c-format
 msgid "ppdc: Bad resolution name \"%s\" on line %d of %s."
-msgstr ""
-"ppdc: 不正な resolution 名 \"%s\" があります。%d 行目、ファイル名 %s 。"
+msgstr "ppdc: 不正な resolution 名 \"%s\" があります。%d 行目、ファイル名 %s。"
 
 #: ppdc/ppdc-source.cxx:1070
 #, c-format
 msgid "ppdc: Bad status keyword %s on line %d of %s."
-msgstr ""
-"ppdc: 不正な status キーワード %s があります。%d 行目、ファイル名 %s 。"
+msgstr "ppdc: 不正な status キーワード %s があります。%d 行目、ファイル名 %s。"
 
 #: ppdc/ppdc-source.cxx:1990
 #, c-format
@@ -7264,9 +7251,7 @@ msgstr ""
 #: ppdc/ppdc-source.cxx:1655
 #, c-format
 msgid "ppdc: Duplicate #po for locale %s on line %d of %s."
-msgstr ""
-"ppdc: locale %s に対して #po が二重に定義されています。%d 行目、ファイル名 "
-"%s 。"
+msgstr "ppdc: locale %s に対して #po が二重に定義されています。%d 行目、ファイル名 %s。"
 
 #: ppdc/ppdc-source.cxx:889
 #, c-format
@@ -7360,7 +7345,7 @@ msgstr "ppdc: %d 行目、ファイル名 %s において group name/text が必
 #: ppdc/ppdc-source.cxx:2575
 #, c-format
 msgid "ppdc: Expected include filename on line %d of %s."
-msgstr "ppdc: %d 行目、ファイル名 %s において include ファイル名が必要です。"
+msgstr "ppdc: %d 行目、ファイル名 %s において include ファイル名 が必要です。"
 
 #: ppdc/ppdc-source.cxx:1459
 #, c-format
@@ -7555,8 +7540,7 @@ msgstr ""
 #: ppdc/ppdc-source.cxx:1585
 #, c-format
 msgid "ppdc: Invalid option section \"%s\" on line %d of %s."
-msgstr ""
-"ppdc: 無効な option section があります \"%s\"。%d 行目、ファイル名 %s。"
+msgstr "ppdc: 無効な option section があります \"%s\"。%d 行目、ファイル名 %s。"
 
 #: ppdc/ppdc-source.cxx:1557
 #, c-format
@@ -7612,8 +7596,7 @@ msgstr ""
 #: ppdc/ppdc-source.cxx:1601
 #, c-format
 msgid "ppdc: Option %s redefined with a different type on line %d of %s."
-msgstr ""
-"ppdc: オプション %s は異なる型で再定義されています。%d 行目、ファイル名 %s。"
+msgstr "ppdc: オプション %s は異なる型で再定義されています。%d 行目、ファイル名 %s。"
 
 #: ppdc/ppdc-source.cxx:662
 #, c-format
@@ -7655,8 +7638,7 @@ msgstr "ppdc: #po ファイル %s が見つかりません。%d 行目、ファ�
 #: ppdc/ppdc-source.cxx:2607
 #, c-format
 msgid "ppdc: Unable to find include file \"%s\" on line %d of %s."
-msgstr ""
-"ppdc: インクルードファイル %s が見つかりません。%d 行目、ファイル名 %s。"
+msgstr "ppdc: インクルードファイル %s が見つかりません。%d 行目、ファイル名 %s。"
 
 #: ppdc/ppdc.cxx:193
 #, c-format
@@ -7808,7 +7790,7 @@ msgstr "%s の状態取得に失敗しました: %s"
 
 #: berkeley/lpc.c:203
 msgid "status\t\tShow status of daemon and queue."
-msgstr "status\t\tデーモンとキューの状態を表示"
+msgstr "status\t\tデーモンとキューの状態を表示。"
 
 #: cups/notify.c:96 cups/notify.c:137
 msgid "stopped"
