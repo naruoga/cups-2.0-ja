@@ -29,7 +29,7 @@ msgstr ""
 "Project-Id-Version: CUPS 2.0\n"
 "Report-Msgid-Bugs-To: http://www.cups.org/str.php\n"
 "POT-Creation-Date: 2014-08-29 22:25-0400\n"
-"PO-Revision-Date: 2014-11-15 19:20+0900\n"
+"PO-Revision-Date: 2014-11-15 19:27+0900\n"
 "Last-Translator: OPFC TRANSCUPS <opfc-transcups@sourceforge.jp>\n"
 "Language-Team: OPFC TRANSCUPS <opfc-transcups@sourceforge.jp>\n"
 "Language: ja\n"
@@ -1336,7 +1336,7 @@ msgstr "  -L                      content-length を用いてリクエストを�
 msgid ""
 "  -P filename.plist       Produce XML plist to a file and test report to "
 "standard output."
-msgstr "  -P filename.plist       XML の plist をファイルに書き出しテストリポートを標準出力にする。"
+msgstr "  -P filename.plist       XML の plist 形式で書き出しテストリポートを標準出力にする。"
 
 #: scheduler/cupsfilter.c:1485
 msgid "  -P filename.ppd         Set PPD file."
