@@ -29,7 +29,7 @@ msgstr ""
 "Project-Id-Version: CUPS 2.0\n"
 "Report-Msgid-Bugs-To: http://www.cups.org/str.php\n"
 "POT-Creation-Date: 2014-08-29 22:25-0400\n"
-"PO-Revision-Date: 2014-11-09 21:48+0900\n"
+"PO-Revision-Date: 2014-11-15 19:20+0900\n"
 "Last-Translator: OPFC TRANSCUPS <opfc-transcups@sourceforge.jp>\n"
 "Language-Team: OPFC TRANSCUPS <opfc-transcups@sourceforge.jp>\n"
 "Language: ja\n"
@@ -7205,7 +7205,7 @@ msgstr "notify-recipient-uri URI \"%s\" には未知のスキームが使われ�
 
 #: cups/notify.c:87
 msgid "pending"
-msgstr "保留"
+msgstr "プリンター待ち"
 
 #: ppdc/ppdc.cxx:108 ppdc/ppdpo.cxx:93
 #, c-format
